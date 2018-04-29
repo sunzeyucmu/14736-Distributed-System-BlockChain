@@ -1,0 +1,4 @@
+export CLASSPATH= $CLASSPATH:/path_to_project/hash/commons-codec-1.11.jar
+
+For Example(On my own Machine):
+export CLASSPATH=$CLASSPATH:~/Downloads/14736/Lab4/blockchain-student/blockchain/hash/commons-codec-1.11.jar
