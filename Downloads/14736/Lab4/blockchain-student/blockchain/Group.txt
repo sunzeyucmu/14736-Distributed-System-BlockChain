@@ -1,4 +1,24 @@
-export CLASSPATH= $CLASSPATH:/path_to_project/hash/commons-codec-1.11.jar
+# Group Member Infomation
+Member 1:
+    Name: Zeyu Sun
+    Andrew ID: zeyus
+    E-mail: zeyus@andrew.cmu.edu
+    Section: SV
 
+Member 2:
+    Name: Chenxuan Weng
+    Andrew ID: chenxuaw
+    E-mail: chenxuaw@andrew.cmu.edu
+    Section: SV
+
+# Our Git Repository:
+https://github.com/sunzeyucmu/14736-Distributed-System-BlockChain
+
+# Run & Test
+1. Before 'make', run the following command first to set the class path in command line
+    export CLASSPATH= $CLASSPATH:/path_to_project/hash/commons-codec-1.11.jar
 For Example(On my own Machine):
 export CLASSPATH=$CLASSPATH:~/Downloads/14736/Lab4/blockchain-student/blockchain/hash/commons-codec-1.11.jar
+
+2. In Config.java, method 'waitUntilAllRegister()'
+I changed the Thread.sleep() time from 10 millis to 30 millis, in order to provide enough time for all Nodes to get Registered
